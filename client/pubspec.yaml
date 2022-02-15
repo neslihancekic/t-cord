@@ -1,0 +1,136 @@
+name: tcord
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  get: ^4.3.8
+  http: ^0.13.4
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0 
+  carousel_slider : ^4.0.0
+  cached_network_image: ^3.1.0
+  device_info: ^2.0.2
+  uuid: ^3.0.5
+  flutter_secure_storage: ^4.2.0
+  get_storage: ^2.0.2
+  permission_handler: ^8.2.5
+  flutter_slidable: ^0.6.0
+  package_info: ^2.0.0
+  camera:  
+    git:
+     url: https://github.com/camsim99/plugins.git
+     path: packages/camera/camera
+     ref: issue_89578_dev
+  image_cropper: ^1.4.0
+  image_picker: ^0.8.4+2
+  path_provider: ^2.0.1
+  flutter_svg: ^0.22.0  
+  share: ^2.0.1
+  flutter_html: ^2.1.5
+  url_launcher: ^6.0.4
+  flutter_launcher_icons: ^0.9.0
+  dotted_border: ^2.0.0+1
+  firebase_core: ^1.7.0
+  firebase_messaging: ^11.2.5
+  firebase_analytics: ^8.3.3
+  firebase_crashlytics: ^2.2.2
+  firebase_performance: ^0.7.1+1
+  file_saver: ^0.0.10
+  flutter_archive: ^4.0.1
+  webview_flutter: ^2.1.1
+  simple_animations: ^4.0.1
+  flutter_sound: ^8.4.2
+  dio: ^4.0.2
+  flutter_midi: 
+    git:
+      url: https://github.com/rodydavis/flutter_midi
+  csv: ^5.0.0
+  linked_scroll_controller: ^0.2.0
+  pausable_timer: ^1.0.0+2
+  tiktoklikescroller: 
+    git:
+      url: https://github.com/neslihancekic/tiktok-flutter-plugin
+  dismissible_page: ^0.6.4
+  audioplayers: ^0.20.1
+  like_button: ^2.0.4
+  flutter_cache_manager: ^3.3.0
+  overlay_support: ^1.2.1
+  flutter_keyboard_visibility: ^5.1.1
+  gallery_saver: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  json_serializable:
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  generate: true
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/   
+    - assets/png/   
+    - assets/   
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  fonts:
+   - family: Circular
+     fonts:
+       - asset: google_fonts/CircularStd-Book.otf
+       - asset: google_fonts/CircularStd-Medium.otf
+         weight: 500
+       - asset: google_fonts/CircularStd-Bold.otf
+         weight: 600
+       - asset: google_fonts/CircularStd-Black.otf
+         weight: 700
+       
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+     
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/appicon.png"

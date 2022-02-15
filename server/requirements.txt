@@ -1,0 +1,14 @@
+numpy==1.19.4
+SoundFile==0.10.3.post1
+librosa==0.8.0
+requests==2.25.1
+py-midicsv==2.0.0
+more-itertools==8.7.0
+midi2audio==0.1.1
+matplotlib==3.3.3
+pydub==0.25.1
+mido==1.2.10
+scipy==1.6.0
+muspy==0.3.0
+-e git+https://github.com/neslihancekic/MIDIUtil@9efde6d42ee6c7331b141f55b7a15b142df0d488#egg=MIDIUtil
+-e git+https://github.com/neslihancekic/pretty-midi.git@a3b9b57d475a5a7b1ad7f20e141ab4930ae06163#egg=pretty-midi

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "712912136127",
+    "project_id": "tcord-compose",
+    "storage_bucket": "tcord-compose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712912136127:android:201b7126496126a392630a",
+        "android_client_info": {
+          "package_name": "com.tcord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712912136127-tlm9lsp7fdv7e3cadkv38ubpdaf83kr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwrVG5xWsz4bCYMEnVi6_Jb4QS18AKuQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712912136127-tlm9lsp7fdv7e3cadkv38ubpdaf83kr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

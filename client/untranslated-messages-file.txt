@@ -1,0 +1,22 @@
+{
+  "tr": [
+    "exitApp",
+    "leave",
+    "yes",
+    "no",
+    "okayUpper",
+    "okay",
+    "passworDoesntMatch",
+    "cancel",
+    "filter",
+    "logout",
+    "signup",
+    "firstName",
+    "lastName",
+    "email",
+    "verifyPassword",
+    "recentlyViewedUpper",
+    "userSearchResult",
+    "noUsersFound"
+  ]
+}

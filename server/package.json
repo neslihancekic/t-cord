@@ -1,0 +1,46 @@
+{
+  "name": "amt-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f ./config/dev.env nodemon index.js",
+    "test": "env-cmd -f ./config/test.env jest --runInBand --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://nescekic@bitbucket.org/nescekic/server.git"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-response-helper": "^1.3.1",
+    "express-validator": "^5.3.1",
+    "formidable": "^1.2.6",
+    "gridfs-stream": "^1.1.1",
+    "jest": "^26.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.13",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemon": "^2.0.15",
+    "python-shell": "^3.0.1",
+    "supertest": "^6.1.6",
+    "uuid": "^8.3.2",
+    "firebase-admin": "^10.0.1"
+  }
+}

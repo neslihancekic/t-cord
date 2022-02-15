@@ -1,0 +1,91 @@
+{
+    "login": "Login",
+    "@login":{
+        "decription" : "Login"
+    },
+    "userName": "Username",
+    "@userName":{
+        "decription" : "Username"
+    },
+    "password": "Password",
+    "@password":{
+        "decription" : "Password"
+    },
+    "forgotPassword": "Forgot Password?",
+    "@forgotPassword":{
+        "decription" : "Login Page, Forgot Password?"
+    },
+    "exitApp": "Do you want to leave the application?",
+    "@exitApp":{
+        "decription" : "General"
+    },
+    "leave": "Leave",
+    "@leave":{
+        "decription" : "General"
+    },
+    "yes": "Yes",
+    "@yes":{
+        "decription" : "General"
+    },
+    "no": "No",
+    "@no":{
+        "decription" : "General"
+    },
+    "okayUpper": "OKAY",
+    "@okayUpper":{
+        "decription" : "OKAY"
+    },
+    "okay": "Okay",
+    "@okay":{
+        "decription" : "Okay"
+    },
+    "passworDoesntMatch": "Passwords Doesn't Match",
+    "@passworDoesntMatch":{
+        "decription" : "Login View"
+    },
+    "cancel": "Cancel",
+    "@cancel":{
+        "decription" : "General"
+    },
+    "filter": "Filter",
+    "@filter":{
+        "decription" : "General"
+    },
+    "logout": "Logout",
+    "@logout":{
+        "decription" : "General"
+    },
+    "signup": "Signup",
+    "@signup":{
+        "decription" : "General"
+    },
+    "firstName": "First Name",
+    "@firstName":{
+        "decription" : "General"
+    },
+    "lastName": "Last Name",
+    "@lastName":{
+        "decription" : "General"
+    },
+    "email": "Email",
+    "@email":{
+        "decription" : "General"
+    },
+    "verifyPassword": "Verify Password",
+    "@verifyPassword":{
+        "decription" : "General"
+    },
+    "recentlyViewedUpper": "RECENTLY VIEWED",
+    "@recentlyViewedUpper":{
+        "decription" : "Search"
+    },
+    "userSearchResult": "total_result_count RESULTS FOR 'search_text'",
+    "@userSearchResult":{
+        "decription" : "Search"
+    },
+    "noUsersFound": "No users found",
+    "@noUsersFound":{
+        "decription" : "Search"
+    }
+
+}
