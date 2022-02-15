@@ -1,2 +1,8 @@
 # t-cord
-Creating Collaborative Music Compositions using a Mobile Application
+Mobile Social Media Application with Automatic Music Transcription
+
+Developed with Flutter, Python, Node.js, Express, MongoDB
+
+Used Services: Firebase, Heroku
+
+
